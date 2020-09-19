@@ -1,4 +1,4 @@
-name: Swift
+name: UnitTest
 
 on: [push]
 jobs:
@@ -18,5 +18,5 @@ jobs:
       run: |
         cd CoffeeForCoding
         pod install
-    - name: iPhone 11 pro max Test
-      run: xcodebuild test -scheme CoffeeForCoding -workspace CoffeeForCoding/CoffeeForCoding.xcworkspace -destination 'platform=iOS Simulator,name=iPhone 11 pro max'
+    - name: iPhone 8 Test
+      run: xcodebuild test -scheme CoffeeForCoding -workspace CoffeeForCoding/CoffeeForCoding.xcworkspace -destination 'platform=iOS Simulator,name=iPhone 8'
