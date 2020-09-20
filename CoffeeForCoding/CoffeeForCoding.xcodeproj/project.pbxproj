@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C9D14302516FCF7009495CD /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 4C9D142F2516FCF7009495CD /* .swiftlint.yml */; };
 		4CF26DA425164A8C001D0B76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF26DA325164A8C001D0B76 /* AppDelegate.swift */; };
 		4CF26DA625164A8C001D0B76 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF26DA525164A8C001D0B76 /* SceneDelegate.swift */; };
 		4CF26DA825164A8C001D0B76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF26DA725164A8C001D0B76 /* ViewController.swift */; };
@@ -30,6 +31,7 @@
 
 /* Begin PBXFileReference section */
 		355023DD148A22CEB354F726 /* Pods-CoffeeForCoding.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeForCoding.release.xcconfig"; path = "Target Support Files/Pods-CoffeeForCoding/Pods-CoffeeForCoding.release.xcconfig"; sourceTree = "<group>"; };
+		4C9D142F2516FCF7009495CD /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		4CF26DA025164A8C001D0B76 /* CoffeeForCoding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeForCoding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CF26DA325164A8C001D0B76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CF26DA525164A8C001D0B76 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 		4CF26D9725164A8C001D0B76 = {
 			isa = PBXGroup;
 			children = (
+				4C9D142F2516FCF7009495CD /* .swiftlint.yml */,
 				4CF26DA225164A8C001D0B76 /* CoffeeForCoding */,
 				4CF26DB925164A8E001D0B76 /* CoffeeForCodingTests */,
 				4CF26DA125164A8C001D0B76 /* Products */,
@@ -150,6 +153,7 @@
 				4CF26D9C25164A8C001D0B76 /* Sources */,
 				4CF26D9D25164A8C001D0B76 /* Frameworks */,
 				4CF26D9E25164A8C001D0B76 /* Resources */,
+				4C9D14312516FD50009495CD /* SwiftLInt */,
 			);
 			buildRules = (
 			);
@@ -222,6 +226,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C9D14302516FCF7009495CD /* .swiftlint.yml in Resources */,
 				4CF26DB025164A8D001D0B76 /* LaunchScreen.storyboard in Resources */,
 				4CF26DAD25164A8D001D0B76 /* Assets.xcassets in Resources */,
 				4CF26DAB25164A8C001D0B76 /* Main.storyboard in Resources */,
@@ -238,6 +243,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		4C9D14312516FD50009495CD /* SwiftLInt */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLInt;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n${PODS_ROOT}/SwiftLint/swiftlint --config .swiftLint.yml\n";
+		};
 		AA7993169C9D86BFAD56E218 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -459,10 +482,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.linsaeng.CoffeeForCoding;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -478,10 +502,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.linsaeng.CoffeeForCoding;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
