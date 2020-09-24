@@ -22,20 +22,26 @@ final class RootComponent: Component<RootDependency> {
     }
 }
 
+extension RootComponent: SplashDependency { }
+
 // MARK: - Builder
 
 protocol RootBuildable: Buildable {
-//    func build(withListener listener: RootListener) -> RootRouting
     func build() -> LaunchRouting
 }
 
 final class RootBuilder: Builder<RootDependency>, RootBuildable {
+    
     func build() -> LaunchRouting {
         let viewController = RootViewController()
         let component = RootComponent(dependency: self.dependency, rootViewController: viewController)
         let interactor = RootInteractor(presenter: viewController)
+
+        let splashbuilder = SplashBuilder(dependency: component)
         
-        return RootRouter(interactor: interactor, viewController: viewController)
+        return RootRouter(interactor: interactor,
+                          viewController: viewController,
+                          splashBuiler: splashbuilder)
     }
 
     override init(dependency: RootDependency) {

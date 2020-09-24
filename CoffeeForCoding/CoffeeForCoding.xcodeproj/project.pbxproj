@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C6F070E2519D74400CB30BC /* RootInteractorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F070D2519D74400CB30BC /* RootInteractorMock.swift */; };
+		4C6F07102519DAF100CB30BC /* RootViewControllerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F070F2519DAF100CB30BC /* RootViewControllerMock.swift */; };
+		4C6F07122519DBAE00CB30BC /* RootBuilderMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F07112519DBAE00CB30BC /* RootBuilderMock.swift */; };
+		4C6F07142519DC0F00CB30BC /* RootRouterSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F07132519DC0F00CB30BC /* RootRouterSpec.swift */; };
+		4C6F071A2519DDA200CB30BC /* SplashRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F07162519DDA200CB30BC /* SplashRouter.swift */; };
+		4C6F071B2519DDA200CB30BC /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F07172519DDA200CB30BC /* SplashViewController.swift */; };
+		4C6F071C2519DDA200CB30BC /* SplashBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F07182519DDA200CB30BC /* SplashBuilder.swift */; };
+		4C6F071D2519DDA200CB30BC /* SplashInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6F07192519DDA200CB30BC /* SplashInteractor.swift */; };
+		4C939369251C55F600BCD4B2 /* SplashRouterMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C939368251C55F600BCD4B2 /* SplashRouterMock.swift */; };
+		4C93936B251C582100BCD4B2 /* SplashInteractorMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C93936A251C582100BCD4B2 /* SplashInteractorMock.swift */; };
+		4C93936D251C5A3100BCD4B2 /* SplashViewControllerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C93936C251C5A3100BCD4B2 /* SplashViewControllerMock.swift */; };
+		4C93936F251C5AE600BCD4B2 /* SplashBuilderMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C93936E251C5AE600BCD4B2 /* SplashBuilderMock.swift */; };
 		4C9D14302516FCF7009495CD /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 4C9D142F2516FCF7009495CD /* .swiftlint.yml */; };
 		4C9D143425170FEE009495CD /* AppComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9D143325170FEE009495CD /* AppComponent.swift */; };
 		4C9D14432517129A009495CD /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9D143E2517129A009495CD /* RootRouter.swift */; };
 		4C9D14442517129A009495CD /* RootInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9D143F2517129A009495CD /* RootInteractor.swift */; };
 		4C9D14452517129A009495CD /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9D14402517129A009495CD /* RootViewController.swift */; };
 		4C9D14462517129A009495CD /* RootBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9D14412517129A009495CD /* RootBuilder.swift */; };
-		4C9D14472517129A009495CD /* RootComponent+Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9D14422517129A009495CD /* RootComponent+Main.swift */; };
 		4C9D146425171305009495CD /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9D145F25171305009495CD /* BaseViewController.swift */; };
+		4C9D148025171953009495CD /* RootRouterMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9D147F25171953009495CD /* RootRouterMock.swift */; };
 		4CF26DA425164A8C001D0B76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF26DA325164A8C001D0B76 /* AppDelegate.swift */; };
 		4CF26DA625164A8C001D0B76 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF26DA525164A8C001D0B76 /* SceneDelegate.swift */; };
 		4CF26DAD25164A8D001D0B76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CF26DAC25164A8D001D0B76 /* Assets.xcassets */; };
@@ -36,14 +48,26 @@
 
 /* Begin PBXFileReference section */
 		355023DD148A22CEB354F726 /* Pods-CoffeeForCoding.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoffeeForCoding.release.xcconfig"; path = "Target Support Files/Pods-CoffeeForCoding/Pods-CoffeeForCoding.release.xcconfig"; sourceTree = "<group>"; };
+		4C6F070D2519D74400CB30BC /* RootInteractorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootInteractorMock.swift; sourceTree = "<group>"; };
+		4C6F070F2519DAF100CB30BC /* RootViewControllerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewControllerMock.swift; sourceTree = "<group>"; };
+		4C6F07112519DBAE00CB30BC /* RootBuilderMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootBuilderMock.swift; sourceTree = "<group>"; };
+		4C6F07132519DC0F00CB30BC /* RootRouterSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRouterSpec.swift; sourceTree = "<group>"; };
+		4C6F07162519DDA200CB30BC /* SplashRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashRouter.swift; sourceTree = "<group>"; };
+		4C6F07172519DDA200CB30BC /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		4C6F07182519DDA200CB30BC /* SplashBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashBuilder.swift; sourceTree = "<group>"; };
+		4C6F07192519DDA200CB30BC /* SplashInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashInteractor.swift; sourceTree = "<group>"; };
+		4C939368251C55F600BCD4B2 /* SplashRouterMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashRouterMock.swift; sourceTree = "<group>"; };
+		4C93936A251C582100BCD4B2 /* SplashInteractorMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashInteractorMock.swift; sourceTree = "<group>"; };
+		4C93936C251C5A3100BCD4B2 /* SplashViewControllerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewControllerMock.swift; sourceTree = "<group>"; };
+		4C93936E251C5AE600BCD4B2 /* SplashBuilderMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashBuilderMock.swift; sourceTree = "<group>"; };
 		4C9D142F2516FCF7009495CD /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		4C9D143325170FEE009495CD /* AppComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppComponent.swift; sourceTree = "<group>"; };
 		4C9D143E2517129A009495CD /* RootRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
 		4C9D143F2517129A009495CD /* RootInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootInteractor.swift; sourceTree = "<group>"; };
 		4C9D14402517129A009495CD /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		4C9D14412517129A009495CD /* RootBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootBuilder.swift; sourceTree = "<group>"; };
-		4C9D14422517129A009495CD /* RootComponent+Main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RootComponent+Main.swift"; sourceTree = "<group>"; };
 		4C9D145F25171305009495CD /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		4C9D147F25171953009495CD /* RootRouterMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRouterMock.swift; sourceTree = "<group>"; };
 		4CF26DA025164A8C001D0B76 /* CoffeeForCoding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeForCoding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CF26DA325164A8C001D0B76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CF26DA525164A8C001D0B76 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +115,28 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		4C6F07152519DD8800CB30BC /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				4C6F07162519DDA200CB30BC /* SplashRouter.swift */,
+				4C6F07172519DDA200CB30BC /* SplashViewController.swift */,
+				4C6F07182519DDA200CB30BC /* SplashBuilder.swift */,
+				4C6F07192519DDA200CB30BC /* SplashInteractor.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		4C939367251C55DF00BCD4B2 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				4C939368251C55F600BCD4B2 /* SplashRouterMock.swift */,
+				4C93936A251C582100BCD4B2 /* SplashInteractorMock.swift */,
+				4C93936C251C5A3100BCD4B2 /* SplashViewControllerMock.swift */,
+				4C93936E251C5AE600BCD4B2 /* SplashBuilderMock.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
 		4C9D143225170FD6009495CD /* Entry */ = {
 			isa = PBXGroup;
 			children = (
@@ -105,7 +151,6 @@
 			isa = PBXGroup;
 			children = (
 				4C9D14412517129A009495CD /* RootBuilder.swift */,
-				4C9D14422517129A009495CD /* RootComponent+Main.swift */,
 				4C9D143F2517129A009495CD /* RootInteractor.swift */,
 				4C9D143E2517129A009495CD /* RootRouter.swift */,
 				4C9D14402517129A009495CD /* RootViewController.swift */,
@@ -119,6 +164,18 @@
 				4C9D145F25171305009495CD /* BaseViewController.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		4C9D147E25171941009495CD /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				4C9D147F25171953009495CD /* RootRouterMock.swift */,
+				4C6F070D2519D74400CB30BC /* RootInteractorMock.swift */,
+				4C6F070F2519DAF100CB30BC /* RootViewControllerMock.swift */,
+				4C6F07112519DBAE00CB30BC /* RootBuilderMock.swift */,
+				4C6F07132519DC0F00CB30BC /* RootRouterSpec.swift */,
+			);
+			path = Root;
 			sourceTree = "<group>";
 		};
 		4CF26D9725164A8C001D0B76 = {
@@ -145,8 +202,9 @@
 		4CF26DA225164A8C001D0B76 /* CoffeeForCoding */ = {
 			isa = PBXGroup;
 			children = (
-				4C9D145E25171305009495CD /* Components */,
 				4C9D1435251710F4009495CD /* Root */,
+				4C6F07152519DD8800CB30BC /* Splash */,
+				4C9D145E25171305009495CD /* Components */,
 				4C9D143225170FD6009495CD /* Entry */,
 				4CF26DC525164BC6001D0B76 /* SupportFiles */,
 			);
@@ -156,6 +214,8 @@
 		4CF26DB925164A8E001D0B76 /* CoffeeForCodingTests */ = {
 			isa = PBXGroup;
 			children = (
+				4C9D147E25171941009495CD /* Root */,
+				4C939367251C55DF00BCD4B2 /* Splash */,
 				4CF26DBA25164A8E001D0B76 /* CoffeeForCodingTests.swift */,
 				4CF26DBC25164A8E001D0B76 /* Info.plist */,
 			);
@@ -352,13 +412,16 @@
 			files = (
 				4C9D14432517129A009495CD /* RootRouter.swift in Sources */,
 				4C9D14462517129A009495CD /* RootBuilder.swift in Sources */,
-				4C9D14472517129A009495CD /* RootComponent+Main.swift in Sources */,
 				4CF26DA425164A8C001D0B76 /* AppDelegate.swift in Sources */,
 				4C9D146425171305009495CD /* BaseViewController.swift in Sources */,
+				4C6F071D2519DDA200CB30BC /* SplashInteractor.swift in Sources */,
+				4C6F071A2519DDA200CB30BC /* SplashRouter.swift in Sources */,
 				4C9D14452517129A009495CD /* RootViewController.swift in Sources */,
 				4CF26DA625164A8C001D0B76 /* SceneDelegate.swift in Sources */,
+				4C6F071C2519DDA200CB30BC /* SplashBuilder.swift in Sources */,
 				4C9D143425170FEE009495CD /* AppComponent.swift in Sources */,
 				4C9D14442517129A009495CD /* RootInteractor.swift in Sources */,
+				4C6F071B2519DDA200CB30BC /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,6 +429,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C6F07122519DBAE00CB30BC /* RootBuilderMock.swift in Sources */,
+				4C6F07142519DC0F00CB30BC /* RootRouterSpec.swift in Sources */,
+				4C939369251C55F600BCD4B2 /* SplashRouterMock.swift in Sources */,
+				4C93936D251C5A3100BCD4B2 /* SplashViewControllerMock.swift in Sources */,
+				4C6F07102519DAF100CB30BC /* RootViewControllerMock.swift in Sources */,
+				4C9D148025171953009495CD /* RootRouterMock.swift in Sources */,
+				4C93936B251C582100BCD4B2 /* SplashInteractorMock.swift in Sources */,
+				4C6F070E2519D74400CB30BC /* RootInteractorMock.swift in Sources */,
+				4C93936F251C5AE600BCD4B2 /* SplashBuilderMock.swift in Sources */,
 				4CF26DBB25164A8E001D0B76 /* CoffeeForCodingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
